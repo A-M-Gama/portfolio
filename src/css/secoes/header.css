@@ -14,11 +14,12 @@
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
+    border: 1px solid transparent;
 }
 
 .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    border: 1px solid var(--cor-primaria);
 }
 
 .header nav ul {

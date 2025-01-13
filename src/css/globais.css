@@ -3,7 +3,7 @@
 
 html {
     font-size: 62.5%;
-    color: var(--cor-branca);
+    color: var(--cor-secundaria);
     font-weight: 300;
     scroll-behavior: smooth;
   }
@@ -86,6 +86,5 @@ html {
   }
   
   .botao:hover {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
+    background-color: var(--primaria-escura);
   }
