@@ -5,8 +5,8 @@
 .header .logo {
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
     border-radius: 50%;
     width: 65px;
     height: 65px;
@@ -29,7 +29,7 @@
 
 .header nav li a {
     text-transform: capitalize;
-    color: var(--cor-branca);
+    color: var(--cor-secundaria);
     font-size: 2rem;
     font-weight: 500;
     padding: 10px 20px;
@@ -41,7 +41,7 @@
 
 .header nav ul li a:hover{
     background-color: var(--cor-primaria);;
-    color: var(--cor-branca);
+    color: var(--cor-secundaria);
 }
 
 .header .menu{
@@ -60,7 +60,7 @@
 .header .hamburguer {
     position: relative;
     display: block;
-    background-color: var(--cor-branca);
+    background-color: var(--cor-secundaria);
     width: 30px;
     height: 2px;
     top: 29px;
@@ -70,7 +70,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after {
-    background-color: var(--cor-branca);
+    background-color: var(--cor-secundaria);
     content: '';
     display: block;
     width: 100%;
@@ -136,7 +136,7 @@
     }
     
     .header nav li a {
-        color: var(--cor-branca);
+        color: var(--cor-secundaria);
         text-align: center;                
         padding: 20px;
         display: block;
